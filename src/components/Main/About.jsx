@@ -7,12 +7,12 @@ function About() {
       <div className="flex flex-col md:flex-row items-center">
         {/* Mətn hissəsi */}
         <div className="w-full md:w-[50%] text-center md:text-left">
-          <h1 className="text-white text-3xl font-bold">About Me</h1>
+          <h1 className="text-white text-3xl font-bold hover:text-yellow-400">About Me</h1>
           <p className="text-white mt-4">
             Hello! I'm Gunay Ramazanova, a passionate Frontend Developer with a strong eye for design and user experience. 
             I specialize in React.js, JavaScript, Tailwind CSS, and Bootstrap, and I enjoy building visually appealing and functional web applications.
           </p>
-          <a href="https://www.linkedin.com/in/gunay-ramazanova/" target="_blank" className="text-white inline-block mt-4 bg-[#800000] px-4 py-2 rounded-lg">Learn More</a>
+          <a href="https://www.linkedin.com/in/gunay-ramazanova/" target="_blank" className="p-2 mt-2 font-bold bg-gradient-to-r from-[#139504] to-green-500 text-transparent bg-clip-text">Learn More</a>
         </div>
 
         {/* Şəkil hissəsi */}

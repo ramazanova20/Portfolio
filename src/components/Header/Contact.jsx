@@ -5,9 +5,8 @@ function Contact() {
     <div id='contact'>
       <div className="text-white grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-100 dark:text-gray-800">
       	<div className="flex flex-col justify-between text-white">
-      		<div className="space-y-2 text-white">
-      			<h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-      			<div className="dark:text-gray-600">Vivamus in nisl metus? Phasellus.</div>
+      		<div className="space-y-2 text-white"> 
+      			<h2 className="text-4xl font-bold leading-tight lg:text-5xl hover:text-yellow-400">Let's talk!</h2>
       		</div>
       		<img src="https://cdn.pixabay.com/photo/2022/06/29/10/38/job-7291427_1280.png" alt="" className="h-full" />
       	</div>

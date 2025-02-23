@@ -5,8 +5,8 @@ import intern from "../../assets/img/internintelligence.png";
 function Experience() {
   return (
     <div>
-        <div id="experience">
-            <h1 className='text-center text-white'>Experience</h1>
+        <div id="experience" className='mt-8'>
+            <h1 className="text-white text-3xl font-bold text-center hover:text-yellow-400">Experience</h1>
             <div>
                 <div className='py-4'>
                     <div className="flex flex-col md:flex-row justify-between py-6">

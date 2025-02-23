@@ -10,7 +10,7 @@ function Projects() {
     <div id="projects">
         <div className=''>
            <div className='text-white text-center mb-4'>
-                <h1>My Portfolio</h1>
+           <h1 className="text-white text-3xl font-bold text-center hover:text-yellow-400">My Portfolio</h1>
                 <p> Projects I worked on</p>
            </div>
             <div className='py-4'>
