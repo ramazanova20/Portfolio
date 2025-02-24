@@ -13,28 +13,28 @@ function Footer() {
       <div className='container lg:max-w-[1280px] mx-auto p-3'>
           <footer className="dark:bg-gray-100 dark:text-gray-900">
           	<div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row dark:divide-gray-600">
-          		<ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
-                <li> 
+          		<ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start text-xl">
+                <li className='hover:text-yellow-400'> 
                   <a href="#" >
                     Home 
                   </a>
                 </li>
-                <li>  
+                <li className='hover:text-yellow-400'>  
                     <a href="#about">
                         About
                     </a>
                 </li>
-                <li>  
+                <li className='hover:text-yellow-400'>  
                     <a href="#experience">
                         Experience
                     </a>  
                 </li>
-                <li>  
+                <li className='hover:text-yellow-400'>  
                     <a href="#projects">
                         Projects
                     </a>  
                 </li>
-                <li>  
+                <li className='hover:text-yellow-400'>  
                   <a href="#contact">
                       Contact 
                   </a> 
@@ -47,7 +47,7 @@ function Footer() {
           		</ul>
           		<div className="flex flex-col justify-center pt-6 lg:pt-0">
           			<div className="flex justify-center space-x-4">
-                  <a rel="noopener noreferrer" href="https://github.com/gunay-ramazanova" target="_blank" title="GitHub" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-gray-800 dark:text-gray-50">
+                  <a rel="noopener noreferrer" href="https://github.com/ramazanova20" target="_blank" title="GitHub" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-gray-800 dark:text-gray-50">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
                       <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.49v-1.71c-2.78.6-3.37-1.19-3.37-1.19-.46-1.17-1.12-1.48-1.12-1.48-.91-.62.07-.6.07-.6 1.01.07 1.54 1.04 1.54 1.04.9 1.53 2.36 1.09 2.93.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.67-.1-.26-.45-1.29.1-2.69 0 0 .84-.27 2.75 1.02a9.57 9.57 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.4.2 2.43.1 2.69.64.69 1.03 1.58 1.03 2.67 0 3.83-2.35 4.68-4.58 4.92.36.31.67.91.67 1.84v2.73c0 .27.18.59.69.49A10.005 10.005 0 0 0 22 12c0-5.52-4.48-10-10-10z" clipRule="evenodd"/>
                     </svg>
