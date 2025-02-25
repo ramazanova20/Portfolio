@@ -40,5 +40,5 @@
 .swirl-in-bck,
 .tilt-in-right-2,
 .tilt-in-left-2 {
-    overflow: hidden;
+    overflow-x: hidden;
 }
