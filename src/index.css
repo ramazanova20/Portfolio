@@ -36,3 +36,6 @@
     animation:tilt-in-left-2 .6s cubic-bezier(.25,.46,.45,.94) both
 }
 
+/* body{
+overflow-x: hidden;
+} */
